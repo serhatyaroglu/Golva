@@ -16,6 +16,7 @@
 		7922681F25C56800000C845B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7922681D25C56800000C845B /* LaunchScreen.storyboard */; };
 		7922682A25C56800000C845B /* GolvaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922682925C56800000C845B /* GolvaTests.swift */; };
 		7922683525C56800000C845B /* GolvaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922683425C56800000C845B /* GolvaUITests.swift */; };
+		8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7922683025C56800000C845B /* GolvaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolvaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922683425C56800000C845B /* GolvaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolvaUITests.swift; sourceTree = "<group>"; };
 		7922683625C56800000C845B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				7922681125C567FF000C845B /* SceneDelegate.swift */,
 				7922681325C567FF000C845B /* ViewController.swift */,
 				7922681525C567FF000C845B /* Main.storyboard */,
+				8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */,
 				7922681B25C56800000C845B /* Assets.xcassets */,
 				7922681D25C56800000C845B /* LaunchScreen.storyboard */,
 				7922682025C56800000C845B /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7922681425C567FF000C845B /* ViewController.swift in Sources */,
+				8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */,
 				7922681025C567FF000C845B /* AppDelegate.swift in Sources */,
 				7922681225C567FF000C845B /* SceneDelegate.swift in Sources */,
 				7922681A25C567FF000C845B /* Golva.xcdatamodeld in Sources */,
