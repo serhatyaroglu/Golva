@@ -20,11 +20,12 @@ struct Response :Decodable
 }
 
 struct Contact:Decodable {
-  
+    let photo:String
     let turAdi:String
     let turSaati:String
     
-    init(turAdi:String,turSaati:String) {
+    init(photo:String,turAdi:String,turSaati:String) {
+        self.photo = photo
         self.turAdi = turAdi
         self.turSaati = turSaati
     }
