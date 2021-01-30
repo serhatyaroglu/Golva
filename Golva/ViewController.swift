@@ -7,58 +7,50 @@
 
 import UIKit
 import Alamofire
-extension UIImage {
-       convenience init?(url: URL?) {
-              guard let url = url else { return nil }
-              do {
-                     self.init(data: try Data(contentsOf: url))
-              } catch {
-                     print("Cannot load image from url: \(url) with error: \(error)")
-                     return nil
-              }
-       }
-}
+
 
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
   
-  
+    
+    @IBOutlet weak var tableView: UITableView!
     var Contacts = [Contact]()
     var apiResult : ApiResult? = nil
     var dataList : [Contact] = [Contact]()
-    
+    var originalArr = [Contact]();
   
 
-    @IBOutlet weak var tableview: UITableView!
-    override func viewWillAppear(_ animated: Bool) {
-           getContacts()
-           print(self.Contacts)
-    }
+
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.layoutMargins = UIEdgeInsets.zero
+        getContacts()
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.reloadData()
         
-        tableview.delegate = self
-        tableview.dataSource = self
-        tableview.reloadData()
+        for contactsSearch in [Contacts] {
+               Contacts.append(contentsOf: contactsSearch)
+        }
        }
     
     
     
     func getContacts() {
-           AF.request("https://api.mocki.io/v1/8610c021")
+           AF.request("https://api.mocki.io/v1/3240dbc8")
                   .validate()
                   .responseDecodable(of: ApiResult.self) {
                          (response) in
                          guard let apiResultFromResponse = response.value else{return}
                          self.Contacts = apiResultFromResponse.response.contacts
-                         print(self.Contacts)
+                         
+                    print(self.Contacts)
+                    self.tableView.reloadData()
                          //print( self.apiResult!.metas.code )
                   }
-        DispatchQueue.main.async {
-            self.tableview.reloadData()
-            //reload on main thread
-                 }
+  
         
     }
     override func didReceiveMemoryWarning() {
@@ -81,10 +73,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath ) as! DetailsTableViewCell
         let currentContact = Contacts[indexPath.row]
-        cell.saatLabel?.text = currentContact.turSaati 
-        cell.turNameLabel?.text = currentContact.turAdi
-        
-        tableview.reloadData()
+        cell.turSaatiLabel?.text = currentContact.turSaati
+        cell.turAdiLabel?.text = currentContact.turAdi
+     
+
         return cell
     }
     

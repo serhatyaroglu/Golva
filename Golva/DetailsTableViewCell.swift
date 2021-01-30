@@ -10,13 +10,11 @@ import UIKit
 class DetailsTableViewCell: UITableViewCell {
     
     
-    @IBOutlet weak var turNameLabel: UILabel!
+    @IBOutlet weak var turAdiLabel: UILabel!
     
-    @IBOutlet weak var saatLabel: UILabel!
+    @IBOutlet weak var turSaatiLabel: UILabel!
     
-    @IBOutlet weak var ımageView: UIImageView!
-    
-    
+    @IBOutlet weak var imageLabel: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

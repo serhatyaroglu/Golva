@@ -6,18 +6,18 @@
 //
 
 import Foundation
-import Alamofire
 enum ContactError:Error {
     case noDataAvaible
     case canNotProcessData
 }
-struct ContactRequest {
+struct Request {
     let resourceURL:URL
-    let API_KEY = "8610c021"
+    let API_KEY = "3240dbc8"
     init(contactCode:String) {
         let resourceString = "https://api.mocki.io/v1/\(API_KEY)"
         guard let resourceURL = URL(string: resourceString) else {fatalError()}
         self.resourceURL = resourceURL
+        
     }
     
     func getContacts(completion: @escaping(Result<[Contact], ContactError>) -> Void) {
@@ -44,6 +44,7 @@ struct ContactRequest {
                 completion(.failure(.canNotProcessData))
             }
         }
+        
         dataTask.resume()
     }
     

@@ -15,23 +15,18 @@ struct ApiResult : Decodable {
 
 struct Response :Decodable
 {
+   
     let contacts:[Contact]
 }
 
 struct Contact:Decodable {
   
-    var turAdi:String
-    let photo:String
+    let turAdi:String
     let turSaati:String
     
-    init(turAdi:String,photo:String,turSaati:String) {
-      
-       
+    init(turAdi:String,turSaati:String) {
         self.turAdi = turAdi
-        self.photo = photo
-
         self.turSaati = turSaati
-
     }
     
 }
