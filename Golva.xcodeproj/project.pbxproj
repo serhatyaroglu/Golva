@@ -16,7 +16,10 @@
 		7922681F25C56800000C845B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7922681D25C56800000C845B /* LaunchScreen.storyboard */; };
 		7922682A25C56800000C845B /* GolvaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922682925C56800000C845B /* GolvaTests.swift */; };
 		7922683525C56800000C845B /* GolvaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922683425C56800000C845B /* GolvaUITests.swift */; };
+		84120C7D1830A1FCB5AA7853 /* Pods_GolvaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */; };
+		84B7BBBF1D2B262CFFD67C40 /* Pods_Golva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D20369344E05662120A666 /* Pods_Golva.framework */; };
 		8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */; };
+		9EE829A3F0FF8A80F04D6D60 /* Pods_Golva_GolvaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14D20369344E05662120A666 /* Pods_Golva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1554E91B66ACF219EB0C9078 /* Pods-Golva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golva.debug.xcconfig"; path = "Target Support Files/Pods-Golva/Pods-Golva.debug.xcconfig"; sourceTree = "<group>"; };
+		7544C78B51B862809DD7CC2F /* Pods-GolvaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolvaTests.debug.xcconfig"; path = "Target Support Files/Pods-GolvaTests/Pods-GolvaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7922680C25C567FF000C845B /* Golva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922680F25C567FF000C845B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7922681125C567FF000C845B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +58,13 @@
 		7922683025C56800000C845B /* GolvaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolvaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922683425C56800000C845B /* GolvaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolvaUITests.swift; sourceTree = "<group>"; };
 		7922683625C56800000C845B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolvaTests.release.xcconfig"; path = "Target Support Files/Pods-GolvaTests/Pods-GolvaTests.release.xcconfig"; sourceTree = "<group>"; };
 		8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golva_GolvaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99928B47FBFC03C0074DDF0F /* Pods-Golva-GolvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golva-GolvaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolvaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC10CCA1908AF6A9A112536 /* Pods-Golva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golva.release.xcconfig"; path = "Target Support Files/Pods-Golva/Pods-Golva.release.xcconfig"; sourceTree = "<group>"; };
+		EA8BA079EB5DA8DD52FC93D4 /* Pods-Golva-GolvaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golva-GolvaUITests.release.xcconfig"; path = "Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B7BBBF1D2B262CFFD67C40 /* Pods_Golva.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84120C7D1830A1FCB5AA7853 /* Pods_GolvaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE829A3F0FF8A80F04D6D60 /* Pods_Golva_GolvaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18593B9F5EC401BBC06FDD31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1554E91B66ACF219EB0C9078 /* Pods-Golva.debug.xcconfig */,
+				BDC10CCA1908AF6A9A112536 /* Pods-Golva.release.xcconfig */,
+				99928B47FBFC03C0074DDF0F /* Pods-Golva-GolvaUITests.debug.xcconfig */,
+				EA8BA079EB5DA8DD52FC93D4 /* Pods-Golva-GolvaUITests.release.xcconfig */,
+				7544C78B51B862809DD7CC2F /* Pods-GolvaTests.debug.xcconfig */,
+				7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7922680325C567FF000C845B = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +116,8 @@
 				7922682825C56800000C845B /* GolvaTests */,
 				7922683325C56800000C845B /* GolvaUITests */,
 				7922680D25C567FF000C845B /* Products */,
+				18593B9F5EC401BBC06FDD31 /* Pods */,
+				E90766A415E7E592D0EC5270 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +165,16 @@
 			path = GolvaUITests;
 			sourceTree = "<group>";
 		};
+		E90766A415E7E592D0EC5270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14D20369344E05662120A666 /* Pods_Golva.framework */,
+				911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */,
+				B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7922683925C56800000C845B /* Build configuration list for PBXNativeTarget "Golva" */;
 			buildPhases = (
+				856D2A23ADB446DA5506FE79 /* [CP] Check Pods Manifest.lock */,
 				7922680825C567FF000C845B /* Sources */,
 				7922680925C567FF000C845B /* Frameworks */,
 				7922680A25C567FF000C845B /* Resources */,
+				775DADE76B609BB44D3F729C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7922683C25C56800000C845B /* Build configuration list for PBXNativeTarget "GolvaTests" */;
 			buildPhases = (
+				67A0BD2B826A5D0DE19D54B6 /* [CP] Check Pods Manifest.lock */,
 				7922682125C56800000C845B /* Sources */,
 				7922682225C56800000C845B /* Frameworks */,
 				7922682325C56800000C845B /* Resources */,
@@ -176,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7922683F25C56800000C845B /* Build configuration list for PBXNativeTarget "GolvaUITests" */;
 			buildPhases = (
+				4630D04C791BB2245F46A6DB /* [CP] Check Pods Manifest.lock */,
 				7922682C25C56800000C845B /* Sources */,
 				7922682D25C56800000C845B /* Frameworks */,
 				7922682E25C56800000C845B /* Resources */,
+				66410FCF458EB67D9617C6EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4630D04C791BB2245F46A6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Golva-GolvaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66410FCF458EB67D9617C6EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A0BD2B826A5D0DE19D54B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GolvaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775DADE76B609BB44D3F729C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golva/Pods-Golva-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golva/Pods-Golva-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Golva/Pods-Golva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		856D2A23ADB446DA5506FE79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Golva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7922680825C567FF000C845B /* Sources */ = {
@@ -441,6 +590,7 @@
 		};
 		7922683A25C56800000C845B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1554E91B66ACF219EB0C9078 /* Pods-Golva.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		7922683B25C56800000C845B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC10CCA1908AF6A9A112536 /* Pods-Golva.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +630,7 @@
 		};
 		7922683D25C56800000C845B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7544C78B51B862809DD7CC2F /* Pods-GolvaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +653,7 @@
 		};
 		7922683E25C56800000C845B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +676,7 @@
 		};
 		7922684025C56800000C845B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99928B47FBFC03C0074DDF0F /* Pods-Golva-GolvaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +697,7 @@
 		};
 		7922684125C56800000C845B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8BA079EB5DA8DD52FC93D4 /* Pods-Golva-GolvaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
