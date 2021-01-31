@@ -67,16 +67,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
            super.didReceiveMemoryWarning()
     }
     
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-           let verticalPadding: CGFloat = 8
-           let maskLayer = CALayer()
-           maskLayer.cornerRadius = 12    //if you want round edges
-           maskLayer.backgroundColor = UIColor.black.cgColor
-           maskLayer.frame = CGRect(x: cell.bounds.origin.x, y: cell.bounds.origin.y, width: cell.bounds.width, height: cell.bounds.height).insetBy(dx: 1, dy: verticalPadding/6)
-           cell.layer.mask = maskLayer
-           let oldFrame = cell.contentView.frame
-           cell.contentView.frame = CGRect(x: oldFrame.origin.x, y: oldFrame.origin.y, width: oldFrame.size.width + 5, height: oldFrame.size.height)
-    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Contacts.count
     }
