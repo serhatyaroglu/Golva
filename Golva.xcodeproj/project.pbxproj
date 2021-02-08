@@ -22,8 +22,6 @@
 		84120C7D1830A1FCB5AA7853 /* Pods_GolvaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */; };
 		84B7BBBF1D2B262CFFD67C40 /* Pods_Golva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D20369344E05662120A666 /* Pods_Golva.framework */; };
 		8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */; };
-		87494AB225D1C99700C7CDEE /* İstatistikCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87494AB125D1C99700C7CDEE /* İstatistikCollectionViewCell.swift */; };
-		87494ABF25D1CC6900C7CDEE /* istatistikColectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87494ABE25D1CC6900C7CDEE /* istatistikColectionViewController.swift */; };
 		9EE829A3F0FF8A80F04D6D60 /* Pods_Golva_GolvaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +66,6 @@
 		794EBB7E25C5B618007D9774 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 		7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolvaTests.release.xcconfig"; path = "Target Support Files/Pods-GolvaTests/Pods-GolvaTests.release.xcconfig"; sourceTree = "<group>"; };
 		8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
-		87494AB125D1C99700C7CDEE /* İstatistikCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "İstatistikCollectionViewCell.swift"; sourceTree = "<group>"; };
-		87494ABE25D1CC6900C7CDEE /* istatistikColectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = istatistikColectionViewController.swift; sourceTree = "<group>"; };
 		911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golva_GolvaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99928B47FBFC03C0074DDF0F /* Pods-Golva-GolvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golva-GolvaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolvaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,8 +145,6 @@
 				794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */,
 				794EBB7225C5AF93007D9774 /* Reguest.swift */,
 				7922681525C567FF000C845B /* Main.storyboard */,
-				87494AB125D1C99700C7CDEE /* İstatistikCollectionViewCell.swift */,
-				87494ABE25D1CC6900C7CDEE /* istatistikColectionViewController.swift */,
 				7922681325C567FF000C845B /* ViewController.swift */,
 				8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */,
 				7922681B25C56800000C845B /* Assets.xcassets */,
@@ -430,10 +424,8 @@
 				7922681425C567FF000C845B /* ViewController.swift in Sources */,
 				794EBB6E25C5AEB4007D9774 /* GolvaInfo.swift in Sources */,
 				8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */,
-				87494AB225D1C99700C7CDEE /* İstatistikCollectionViewCell.swift in Sources */,
 				7922681025C567FF000C845B /* AppDelegate.swift in Sources */,
 				7922681225C567FF000C845B /* SceneDelegate.swift in Sources */,
-				87494ABF25D1CC6900C7CDEE /* istatistikColectionViewController.swift in Sources */,
 				7922681A25C567FF000C845B /* Golva.xcdatamodeld in Sources */,
 				794EBB7F25C5B618007D9774 /* person.swift in Sources */,
 				794EBB7325C5AF93007D9774 /* Reguest.swift in Sources */,
