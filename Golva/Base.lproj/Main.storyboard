@@ -542,59 +542,16 @@
         <!--Etkinlik Ekle-->
         <scene sceneID="Yk4-Jj-DQ7">
             <objects>
-                <viewController id="4QA-PE-4UH" customClass="TurEkleViewController" customModule="Golva" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4QA-PE-4UH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="my2-l3-LnJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ETV-SG-KRh">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d7h-uH-nKI">
-                                    <size key="itemSize" width="174" height="148"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TurEkleHucre" id="n6K-5Z-Jvx" customClass="TurEkleCollectionViewCell" customModule="Golva" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="174" height="148"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jjN-SN-fmA">
-                                            <rect key="frame" x="0.0" y="0.0" width="174" height="148"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWh-4z-IKP">
-                                                    <rect key="frame" x="8" y="8" width="158" height="132"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.77636219949999996" green="0.83324360279999998" blue="0.88508899699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <connections>
-                                                        <action selector="Rafting:" destination="n6K-5Z-Jvx" eventType="touchUpInside" id="KDQ-m8-rMU"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                        <size key="customSize" width="174" height="148"/>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="MIt-Lq-nZt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ETV-SG-KRh" firstAttribute="leading" secondItem="MIt-Lq-nZt" secondAttribute="leading" id="8EC-G4-HXl"/>
-                            <constraint firstItem="MIt-Lq-nZt" firstAttribute="bottom" secondItem="ETV-SG-KRh" secondAttribute="bottom" id="8nE-E6-Go4"/>
-                            <constraint firstItem="MIt-Lq-nZt" firstAttribute="trailing" secondItem="ETV-SG-KRh" secondAttribute="trailing" id="DKc-ag-CMA"/>
-                            <constraint firstItem="ETV-SG-KRh" firstAttribute="top" secondItem="MIt-Lq-nZt" secondAttribute="top" id="X5y-et-9ig"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Etkinlik Ekle" image="plus" catalog="system" id="Otz-5u-XfX">
                         <color key="badgeColor" systemColor="systemGreenColor"/>
                     </tabBarItem>
-                    <connections>
-                        <outlet property="CollectionView" destination="ETV-SG-KRh" id="Vwr-Ta-cIW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CCn-Ph-Ah9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
