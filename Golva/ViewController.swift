@@ -21,8 +21,13 @@ extension UIImage {
 }
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
-  
+    @IBOutlet weak var ViewTab: UIView!
     
+    @IBOutlet weak var Label1: UILabel!
+    
+    @IBOutlet weak var label4: UILabel!
+    @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var tableView: UITableView!
     var Contacts = [Contact]()
     var apiResult : ApiResult? = nil
@@ -35,6 +40,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         self.view.layoutMargins = UIEdgeInsets.zero
         getContacts()
         tableView.delegate = self

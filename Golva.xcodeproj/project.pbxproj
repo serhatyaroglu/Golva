@@ -141,11 +141,11 @@
 			children = (
 				7922680F25C567FF000C845B /* AppDelegate.swift */,
 				7922681125C567FF000C845B /* SceneDelegate.swift */,
-				7922681325C567FF000C845B /* ViewController.swift */,
 				794EBB7E25C5B618007D9774 /* person.swift */,
 				794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */,
 				794EBB7225C5AF93007D9774 /* Reguest.swift */,
 				7922681525C567FF000C845B /* Main.storyboard */,
+				7922681325C567FF000C845B /* ViewController.swift */,
 				8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */,
 				7922681B25C56800000C845B /* Assets.xcassets */,
 				7922681D25C56800000C845B /* LaunchScreen.storyboard */,
