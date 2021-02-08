@@ -19,6 +19,8 @@
 		794EBB6E25C5AEB4007D9774 /* GolvaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */; };
 		794EBB7325C5AF93007D9774 /* Reguest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794EBB7225C5AF93007D9774 /* Reguest.swift */; };
 		794EBB7F25C5B618007D9774 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794EBB7E25C5B618007D9774 /* person.swift */; };
+		79B61AA025D1C4E900758C24 /* TurEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B61A9F25D1C4E900758C24 /* TurEkleViewController.swift */; };
+		79B61AA525D1C99C00758C24 /* TurEkleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B61AA425D1C99C00758C24 /* TurEkleCollectionViewCell.swift */; };
 		84120C7D1830A1FCB5AA7853 /* Pods_GolvaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */; };
 		84B7BBBF1D2B262CFFD67C40 /* Pods_Golva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D20369344E05662120A666 /* Pods_Golva.framework */; };
 		8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */; };
@@ -66,6 +68,8 @@
 		794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolvaInfo.swift; sourceTree = "<group>"; };
 		794EBB7225C5AF93007D9774 /* Reguest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reguest.swift; sourceTree = "<group>"; };
 		794EBB7E25C5B618007D9774 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		79B61A9F25D1C4E900758C24 /* TurEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurEkleViewController.swift; sourceTree = "<group>"; };
+		79B61AA425D1C99C00758C24 /* TurEkleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurEkleCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolvaTests.release.xcconfig"; path = "Target Support Files/Pods-GolvaTests/Pods-GolvaTests.release.xcconfig"; sourceTree = "<group>"; };
 		8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		87494AB125D1C99700C7CDEE /* İstatistikCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "İstatistikCollectionViewCell.swift"; sourceTree = "<group>"; };
@@ -149,8 +153,13 @@
 				794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */,
 				794EBB7225C5AF93007D9774 /* Reguest.swift */,
 				7922681525C567FF000C845B /* Main.storyboard */,
+<<<<<<< HEAD
 				87494AB125D1C99700C7CDEE /* İstatistikCollectionViewCell.swift */,
 				87494ABE25D1CC6900C7CDEE /* istatistikColectionViewController.swift */,
+=======
+				79B61AA425D1C99C00758C24 /* TurEkleCollectionViewCell.swift */,
+				79B61A9F25D1C4E900758C24 /* TurEkleViewController.swift */,
+>>>>>>> b0e0498310e8928eb588b96f80c2bbe5bb08783b
 				7922681325C567FF000C845B /* ViewController.swift */,
 				8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */,
 				7922681B25C56800000C845B /* Assets.xcassets */,
@@ -430,8 +439,13 @@
 				7922681425C567FF000C845B /* ViewController.swift in Sources */,
 				794EBB6E25C5AEB4007D9774 /* GolvaInfo.swift in Sources */,
 				8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */,
+<<<<<<< HEAD
 				87494AB225D1C99700C7CDEE /* İstatistikCollectionViewCell.swift in Sources */,
+=======
+				79B61AA525D1C99C00758C24 /* TurEkleCollectionViewCell.swift in Sources */,
+>>>>>>> b0e0498310e8928eb588b96f80c2bbe5bb08783b
 				7922681025C567FF000C845B /* AppDelegate.swift in Sources */,
+				79B61AA025D1C4E900758C24 /* TurEkleViewController.swift in Sources */,
 				7922681225C567FF000C845B /* SceneDelegate.swift in Sources */,
 				87494ABF25D1CC6900C7CDEE /* istatistikColectionViewController.swift in Sources */,
 				7922681A25C567FF000C845B /* Golva.xcdatamodeld in Sources */,
