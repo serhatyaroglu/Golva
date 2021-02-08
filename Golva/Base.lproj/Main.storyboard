@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -290,6 +291,9 @@
                                         <state key="normal" title="     Profil Bilgileri" image="person.fill" catalog="system">
                                             <color key="titleColor" systemColor="systemIndigoColor"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="tS0-OE-kGu" kind="presentation" id="XVl-jW-63U"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="png" translatesAutoresizingMaskIntoConstraints="NO" id="1gh-60-4Ln">
                                         <rect key="frame" x="131" y="217" width="233" height="155"/>
@@ -305,6 +309,9 @@
                                         <state key="normal" title="      İstatistik" image="bolt.horizontal" catalog="system">
                                             <color key="titleColor" systemColor="systemIndigoColor"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="fY2-ZI-BzS" kind="presentation" id="xom-82-fFM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.84705877299999999" green="0.90196073060000004" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -353,6 +360,184 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdX-vD-BsL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1289.8550724637682" y="304.6875"/>
+        </scene>
+        <!--Istatistik Colection View Controller-->
+        <scene sceneID="oSl-Xy-w5V">
+            <objects>
+                <viewController id="fY2-ZI-BzS" customClass="istatistikColectionViewController" customModule="Golva" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A8m-V9-K4v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="n7f-Fd-N06">
+                                <rect key="frame" x="0.0" y="0.0" width="404" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7ha-Kn-e4O">
+                                    <size key="itemSize" width="404" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="istatistikHucre" id="PgS-t0-fdc" customClass="I_statistikCollectionViewCell" customModule="Golva" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="B8j-Jh-Zm3">
+                                            <rect key="frame" x="0.0" y="0.0" width="404" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kişi sayısı" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQ0-AI-Hcy">
+                                                    <rect key="frame" x="188" y="8" width="72" height="42"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="404" height="128"/>
+                                        <connections>
+                                            <outlet property="kisiLabel" destination="KQ0-AI-Hcy" id="qRs-ah-PNH"/>
+                                            <outlet property="kisiText" destination="KQ0-AI-Hcy" id="qCo-tl-X5o"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jj5-tJ-YWl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jj5-tJ-YWl" firstAttribute="bottom" secondItem="n7f-Fd-N06" secondAttribute="bottom" id="ntQ-rI-Qam"/>
+                            <constraint firstItem="Jj5-tJ-YWl" firstAttribute="trailing" secondItem="n7f-Fd-N06" secondAttribute="trailing" id="tqw-Ov-WuW"/>
+                            <constraint firstItem="n7f-Fd-N06" firstAttribute="top" secondItem="Jj5-tJ-YWl" secondAttribute="top" id="uNL-ht-OZa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdw-81-Vry" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102.898550724638" y="715.84821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6NW-c6-zd1">
+            <objects>
+                <viewController id="tS0-OE-kGu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bxf-As-9Kc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgI-1g-KJf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İsim : Ertuğrul KULABER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZdR-4H-dDf">
+                                        <rect key="frame" x="0.0" y="304" width="414" height="64"/>
+                                        <color key="backgroundColor" red="0.92941176889999999" green="0.96470588450000005" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="a0r-az-Dvl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Şifre Değiştir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewc-Ar-BX2">
+                                        <rect key="frame" x="0.0" y="396" width="414" height="64"/>
+                                        <color key="backgroundColor" red="0.92941176889999999" green="0.96470588450000005" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="N5T-82-qYa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doğum Tarihi : 20.12.1995" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laq-gT-dXV">
+                                        <rect key="frame" x="0.0" y="484" width="414" height="64"/>
+                                        <color key="backgroundColor" red="0.92941176889999999" green="0.96470588450000005" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="CBe-lW-cWO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Mail : ertugrulkulaber@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8X-cp-abo">
+                                        <rect key="frame" x="0.0" y="570" width="414" height="64"/>
+                                        <color key="backgroundColor" red="0.92941176889999999" green="0.96470588450000005" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="C3m-my-KAe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profil Fotoğrafı" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQN-sA-a6p">
+                                        <rect key="frame" x="0.0" y="224" width="414" height="64"/>
+                                        <color key="backgroundColor" red="0.93058890104293823" green="0.96302860975265503" blue="0.97834795713424683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="Wqn-Jq-xc3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YONET" translatesAutoresizingMaskIntoConstraints="NO" id="ir5-u4-eyM">
+                                        <rect key="frame" x="119.5" y="68" width="175" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="175" id="nU3-QH-VtV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon  : 0553 553 53 53" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2a-N6-gOy">
+                                        <rect key="frame" x="0.0" y="657" width="414" height="64"/>
+                                        <color key="backgroundColor" red="0.92941176889999999" green="0.96470588450000005" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="DRP-sG-LE9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84348881244659424" green="0.9105040431022644" blue="0.95712178945541382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ZdR-4H-dDf" firstAttribute="trailing" secondItem="ewc-Ar-BX2" secondAttribute="trailing" id="1nN-9Y-9P9"/>
+                                    <constraint firstAttribute="trailing" secondItem="WQN-sA-a6p" secondAttribute="trailing" id="5nB-xl-ryE"/>
+                                    <constraint firstItem="ewc-Ar-BX2" firstAttribute="trailing" secondItem="laq-gT-dXV" secondAttribute="trailing" id="60p-ze-2dV"/>
+                                    <constraint firstItem="laq-gT-dXV" firstAttribute="top" secondItem="ewc-Ar-BX2" secondAttribute="bottom" constant="16" id="Bay-dZ-lOH"/>
+                                    <constraint firstItem="H8X-cp-abo" firstAttribute="trailing" secondItem="R2a-N6-gOy" secondAttribute="trailing" id="Bhg-KC-0of"/>
+                                    <constraint firstItem="laq-gT-dXV" firstAttribute="leading" secondItem="H8X-cp-abo" secondAttribute="leading" id="CG5-fv-aSG"/>
+                                    <constraint firstItem="H8X-cp-abo" firstAttribute="leading" secondItem="R2a-N6-gOy" secondAttribute="leading" id="FYx-YR-Lmf"/>
+                                    <constraint firstItem="WQN-sA-a6p" firstAttribute="top" secondItem="ir5-u4-eyM" secondAttribute="bottom" constant="28" id="I60-4D-u2z"/>
+                                    <constraint firstItem="ewc-Ar-BX2" firstAttribute="top" secondItem="ZdR-4H-dDf" secondAttribute="bottom" constant="28" id="ITQ-JX-vdZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="R2a-N6-gOy" secondAttribute="bottom" constant="87" id="JUn-lc-5rM"/>
+                                    <constraint firstItem="WQN-sA-a6p" firstAttribute="trailing" secondItem="ZdR-4H-dDf" secondAttribute="trailing" id="Jes-Jh-R79"/>
+                                    <constraint firstItem="WQN-sA-a6p" firstAttribute="leading" secondItem="KgI-1g-KJf" secondAttribute="leading" id="Nt6-iu-sRd"/>
+                                    <constraint firstItem="H8X-cp-abo" firstAttribute="top" secondItem="laq-gT-dXV" secondAttribute="bottom" constant="22" id="Q25-vs-h7z"/>
+                                    <constraint firstItem="R2a-N6-gOy" firstAttribute="top" secondItem="H8X-cp-abo" secondAttribute="bottom" constant="16" id="cOR-ZV-5l9"/>
+                                    <constraint firstItem="R2a-N6-gOy" firstAttribute="top" secondItem="H8X-cp-abo" secondAttribute="bottom" constant="23" id="dG8-9W-M2E"/>
+                                    <constraint firstItem="laq-gT-dXV" firstAttribute="top" secondItem="ewc-Ar-BX2" secondAttribute="bottom" constant="24" id="dfj-RW-9AZ"/>
+                                    <constraint firstItem="H8X-cp-abo" firstAttribute="top" secondItem="laq-gT-dXV" secondAttribute="bottom" constant="16" id="gtv-5D-2xl"/>
+                                    <constraint firstItem="ir5-u4-eyM" firstAttribute="top" secondItem="KgI-1g-KJf" secondAttribute="top" constant="68" id="ipm-Tz-CJy"/>
+                                    <constraint firstItem="ir5-u4-eyM" firstAttribute="centerX" secondItem="WQN-sA-a6p" secondAttribute="centerX" id="jWt-ye-4GA"/>
+                                    <constraint firstItem="WQN-sA-a6p" firstAttribute="leading" secondItem="ZdR-4H-dDf" secondAttribute="leading" id="kiB-dP-ANi"/>
+                                    <constraint firstItem="ZdR-4H-dDf" firstAttribute="leading" secondItem="ewc-Ar-BX2" secondAttribute="leading" id="nGu-Fl-xEQ"/>
+                                    <constraint firstItem="ZdR-4H-dDf" firstAttribute="top" secondItem="WQN-sA-a6p" secondAttribute="bottom" constant="16" id="rlC-Z2-n72"/>
+                                    <constraint firstItem="ewc-Ar-BX2" firstAttribute="top" secondItem="ZdR-4H-dDf" secondAttribute="bottom" constant="16" id="vB0-jg-gJW"/>
+                                    <constraint firstItem="laq-gT-dXV" firstAttribute="trailing" secondItem="H8X-cp-abo" secondAttribute="trailing" id="xFU-6D-YYy"/>
+                                    <constraint firstItem="ewc-Ar-BX2" firstAttribute="leading" secondItem="laq-gT-dXV" secondAttribute="leading" id="zgf-XR-THE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8TS-2I-63g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8TS-2I-63g" firstAttribute="trailing" secondItem="KgI-1g-KJf" secondAttribute="trailing" id="ci8-vg-o09"/>
+                            <constraint firstItem="KgI-1g-KJf" firstAttribute="top" secondItem="8TS-2I-63g" secondAttribute="top" id="dIL-hL-1fJ"/>
+                            <constraint firstItem="KgI-1g-KJf" firstAttribute="leading" secondItem="8TS-2I-63g" secondAttribute="leading" id="iHt-bk-RuY"/>
+                            <constraint firstItem="8TS-2I-63g" firstAttribute="bottom" secondItem="KgI-1g-KJf" secondAttribute="bottom" id="zaE-FN-jj7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="erd-UP-osA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102.898550724638" y="2.6785714285714284"/>
         </scene>
         <!--Etkinlik Ekle-->
         <scene sceneID="Yk4-Jj-DQ7">
