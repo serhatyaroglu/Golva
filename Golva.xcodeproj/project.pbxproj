@@ -24,6 +24,8 @@
 		84120C7D1830A1FCB5AA7853 /* Pods_GolvaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */; };
 		84B7BBBF1D2B262CFFD67C40 /* Pods_Golva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D20369344E05662120A666 /* Pods_Golva.framework */; };
 		8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */; };
+		879AFF7A25D2741F0039F7DE /* istatistikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AFF7925D2741F0039F7DE /* istatistikViewController.swift */; };
+		879AFF7F25D274590039F7DE /* istatistikCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AFF7E25D274590039F7DE /* istatistikCollectionViewCell.swift */; };
 		9EE829A3F0FF8A80F04D6D60 /* Pods_Golva_GolvaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		799789F325D2680200A24861 /* TurEkleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurEkleCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolvaTests.release.xcconfig"; path = "Target Support Files/Pods-GolvaTests/Pods-GolvaTests.release.xcconfig"; sourceTree = "<group>"; };
 		8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		879AFF7925D2741F0039F7DE /* istatistikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = istatistikViewController.swift; sourceTree = "<group>"; };
+		879AFF7E25D274590039F7DE /* istatistikCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = istatistikCollectionViewCell.swift; sourceTree = "<group>"; };
 		911424EBE3AC2BF02B01A970 /* Pods_Golva_GolvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golva_GolvaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99928B47FBFC03C0074DDF0F /* Pods-Golva-GolvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golva-GolvaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Golva-GolvaUITests/Pods-Golva-GolvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolvaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +153,8 @@
 				794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */,
 				794EBB7225C5AF93007D9774 /* Reguest.swift */,
 				7922681525C567FF000C845B /* Main.storyboard */,
+				879AFF7E25D274590039F7DE /* istatistikCollectionViewCell.swift */,
+				879AFF7925D2741F0039F7DE /* istatistikViewController.swift */,
 				799789EE25D267E900A24861 /* TurEkleViewController.swift */,
 				799789F325D2680200A24861 /* TurEkleCollectionViewCell.swift */,
 				7922681325C567FF000C845B /* ViewController.swift */,
@@ -430,7 +436,9 @@
 				7922681425C567FF000C845B /* ViewController.swift in Sources */,
 				794EBB6E25C5AEB4007D9774 /* GolvaInfo.swift in Sources */,
 				8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */,
+				879AFF7A25D2741F0039F7DE /* istatistikViewController.swift in Sources */,
 				799789F425D2680200A24861 /* TurEkleCollectionViewCell.swift in Sources */,
+				879AFF7F25D274590039F7DE /* istatistikCollectionViewCell.swift in Sources */,
 				7922681025C567FF000C845B /* AppDelegate.swift in Sources */,
 				799789EF25D267E900A24861 /* TurEkleViewController.swift in Sources */,
 				7922681225C567FF000C845B /* SceneDelegate.swift in Sources */,
