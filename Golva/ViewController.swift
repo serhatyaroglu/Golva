@@ -30,6 +30,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var tableView: UITableView!
     var Contacts = [Contact]()
+    
     var apiResult : ApiResult? = nil
     var dataList : [Contact] = [Contact]()
     var originalArr = [Contact]();
