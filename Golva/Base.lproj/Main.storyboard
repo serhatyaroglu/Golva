@@ -496,18 +496,25 @@
                                             <rect key="frame" x="0.0" y="0.0" width="185" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omy-hn-x3H">
-                                                    <rect key="frame" x="15" y="24" width="155" height="86"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.80139531030973821" green="1" blue="0.72690179826588697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <connections>
-                                                        <action selector="Rafting:" destination="Okq-RP-ETg" eventType="touchUpInside" id="uON-IF-TGU"/>
-                                                    </connections>
-                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-mx-iYh">
+                                                    <rect key="frame" x="53" y="44" width="78" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="78" id="iaz-JN-pDp"/>
+                                                        <constraint firstAttribute="height" constant="40" id="klg-kb-cOq"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="C4O-mx-iYh" firstAttribute="top" secondItem="cBU-2V-ovo" secondAttribute="top" constant="44" id="xDc-cX-48e"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="185" height="128"/>
+                                        <connections>
+                                            <outlet property="TurEkleButon" destination="C4O-mx-iYh" id="dND-TY-e2N"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -518,6 +525,9 @@
                     <tabBarItem key="tabBarItem" title="Etkinlik Ekle" image="plus" catalog="system" id="Otz-5u-XfX">
                         <color key="badgeColor" systemColor="systemGreenColor"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="CollectionView" destination="kqy-V6-W80" id="mpk-4O-we8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CCn-Ph-Ah9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -6,11 +6,13 @@
 //
 
 import UIKit
+protocol TurEkleHucreProtocol {
+    func SayfaGecis(indexPath:IndexPath)
+}
 
 class TurEkleCollectionViewCell: UICollectionViewCell {
- 
-    
-    @IBAction func Rafting(_ sender: UIButton) {
-        
-    }
+   
+    @IBOutlet weak var TurEkleButon: UILabel!
+    var hucreProtocol:TurEkleHucreProtocol?
+    var indexPath:IndexPath?
 }

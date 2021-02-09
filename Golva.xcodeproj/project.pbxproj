@@ -19,6 +19,7 @@
 		794EBB6E25C5AEB4007D9774 /* GolvaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */; };
 		794EBB7325C5AF93007D9774 /* Reguest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794EBB7225C5AF93007D9774 /* Reguest.swift */; };
 		794EBB7F25C5B618007D9774 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794EBB7E25C5B618007D9774 /* person.swift */; };
+		7962272925D31E8C00EC001A /* TurEkleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962272825D31E8C00EC001A /* TurEkleModel.swift */; };
 		799789EF25D267E900A24861 /* TurEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799789EE25D267E900A24861 /* TurEkleViewController.swift */; };
 		799789F425D2680200A24861 /* TurEkleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799789F325D2680200A24861 /* TurEkleCollectionViewCell.swift */; };
 		84120C7D1830A1FCB5AA7853 /* Pods_GolvaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB95E2B48A0A4887EB603D /* Pods_GolvaTests.framework */; };
@@ -68,6 +69,7 @@
 		794EBB6D25C5AEB4007D9774 /* GolvaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolvaInfo.swift; sourceTree = "<group>"; };
 		794EBB7225C5AF93007D9774 /* Reguest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reguest.swift; sourceTree = "<group>"; };
 		794EBB7E25C5B618007D9774 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		7962272825D31E8C00EC001A /* TurEkleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurEkleModel.swift; sourceTree = "<group>"; };
 		799789EE25D267E900A24861 /* TurEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurEkleViewController.swift; sourceTree = "<group>"; };
 		799789F325D2680200A24861 /* TurEkleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurEkleCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BEE74FB3C77FFACFD88CC03 /* Pods-GolvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolvaTests.release.xcconfig"; path = "Target Support Files/Pods-GolvaTests/Pods-GolvaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				879AFF7925D2741F0039F7DE /* istatistikViewController.swift */,
 				799789EE25D267E900A24861 /* TurEkleViewController.swift */,
 				799789F325D2680200A24861 /* TurEkleCollectionViewCell.swift */,
+				7962272825D31E8C00EC001A /* TurEkleModel.swift */,
 				7922681325C567FF000C845B /* ViewController.swift */,
 				8704DC2125C5728F0008FF34 /* DetailsTableViewCell.swift */,
 				7922681B25C56800000C845B /* Assets.xcassets */,
@@ -438,6 +441,7 @@
 				8704DC2225C5728F0008FF34 /* DetailsTableViewCell.swift in Sources */,
 				879AFF7A25D2741F0039F7DE /* istatistikViewController.swift in Sources */,
 				799789F425D2680200A24861 /* TurEkleCollectionViewCell.swift in Sources */,
+				7962272925D31E8C00EC001A /* TurEkleModel.swift in Sources */,
 				879AFF7F25D274590039F7DE /* istatistikCollectionViewCell.swift in Sources */,
 				7922681025C567FF000C845B /* AppDelegate.swift in Sources */,
 				799789EF25D267E900A24861 /* TurEkleViewController.swift in Sources */,
