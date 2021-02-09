@@ -8,5 +8,9 @@
 import UIKit
 
 class TurEkleCollectionViewCell: UICollectionViewCell {
+ 
     
+    @IBAction func Rafting(_ sender: UIButton) {
+        
+    }
 }
