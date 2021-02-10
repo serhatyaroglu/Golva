@@ -17,7 +17,11 @@
 		<key>Pods-Golva.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>3</integer>
+=======
+			<integer>4</integer>
+>>>>>>> Stashed changes
 		</dict>
 		<key>Pods-GolvaTests.xcscheme_^#shared#^_</key>
 		<dict>
