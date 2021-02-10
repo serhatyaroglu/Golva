@@ -11,20 +11,12 @@ class istatistikCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var ziplineLabel: UILabel!
     
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    @IBOutlet weak var HaftaLabelName: UILabel!
-    @IBOutlet weak var GunLabelName: UILabel!
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
     @IBOutlet weak var gunLabel: UILabel!
     
     @IBOutlet weak var haftaLabel: UILabel!
     
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     @IBOutlet weak var AyLabelName: UILabel!
     
     @IBOutlet weak var ayLabel: UILabel!
@@ -32,17 +24,8 @@ class istatistikCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var resimImage: UIImageView!
     
    
-=======
-=======
->>>>>>> Stashed changes
-    
-    @IBOutlet weak var ayLabel: UILabel!
     
     
-    @IBOutlet weak var resimImage: UIImageView!
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
     
 }
