@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37D022F0-7C28-4EB3-AF08-BDE44125A6EB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Golva/istatistikCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "istatistikCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E - b7840d3830f512f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Golva.istatistikCollectionViewCell.ayLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Golva"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ertugrulkulaber/Desktop/Golva/Golva/istatistikCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E - 264d80c2f6dabee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Golva.istatistikCollectionViewCell.ayLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Golva"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ertugrulkulaber/Desktop/Golva/Golva/istatistikCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E - 1f82038bab353977"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Golva.istatistikCollectionViewCell.ayLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Golva"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ertugrulkulaber/Desktop/Golva/Golva/istatistikCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E - 325fcc2daa7b0694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Golva.istatistikCollectionViewCell.ayLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Golva"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ertugrulkulaber/Desktop/Golva/Golva/istatistikCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E - 5208e027bdbc8d6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Golva.istatistikCollectionViewCell.init(frame: __C.CGRect) -&gt; Golva.istatistikCollectionViewCell"
+                  moduleName = "Golva"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ertugrulkulaber/Desktop/Golva/Golva/istatistikCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "6EFC51CA-8D37-4A36-83AF-4E581B8D693E - faa93719fbfa1f15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Golva.istatistikCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Golva.istatistikCollectionViewCell&gt;"
+                  moduleName = "Golva"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ertugrulkulaber/Desktop/Golva/Golva/istatistikCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
