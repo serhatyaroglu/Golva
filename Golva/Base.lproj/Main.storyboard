@@ -371,7 +371,11 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ier-vl-O1W">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     <size key="itemSize" width="414" height="208"/>
+=======
+                                    <size key="itemSize" width="366" height="121"/>
+>>>>>>> Stashed changes
 =======
                                     <size key="itemSize" width="366" height="121"/>
 >>>>>>> Stashed changes
@@ -387,6 +391,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <cells>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.45000000000000001" contentMode="center" reuseIdentifier="etkinlikBilgi" id="FlK-6C-mFD" customClass="istatistikCollectionViewCell" customModule="Golva" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="208"/>
@@ -408,11 +413,23 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÜN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rH5-7i-b6W">
                                                     <rect key="frame" x="54.5" y="37" width="38" height="21"/>
 >>>>>>> Stashed changes
+=======
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="etkinlikBilgi" id="FlK-6C-mFD" customClass="istatistikCollectionViewCell" customModule="Golva" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="0.0" width="366" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Omt-Nq-uDB">
+                                            <rect key="frame" x="0.0" y="0.0" width="366" height="121"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÜN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rH5-7i-b6W">
+                                                    <rect key="frame" x="54.5" y="37" width="38" height="21"/>
+>>>>>>> Stashed changes
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nua-r1-Gba">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                                     <rect key="frame" x="313" y="130" width="22.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -427,6 +444,9 @@
 =======
                                                     <rect key="frame" x="288.5" y="73" width="22.5" height="21"/>
 >>>>>>> Stashed changes
+=======
+                                                    <rect key="frame" x="288.5" y="73" width="22.5" height="21"/>
+>>>>>>> Stashed changes
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -437,6 +457,9 @@
 =======
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZİPLİNE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIi-Xy-f2w">
                                                     <rect key="frame" x="0.0" y="1" width="366" height="21"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -448,6 +471,9 @@
 =======
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abj-Uq-SFf">
                                                     <rect key="frame" x="202" y="73" width="19" height="21"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -459,6 +485,9 @@
 =======
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4V-cD-RnS">
                                                     <rect key="frame" x="288.5" y="37" width="22.5" height="21"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -483,6 +512,9 @@
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HAFTA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2u-vA-dD6">
                                                     <rect key="frame" x="177" y="43" width="69" height="21"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -515,6 +547,7 @@
                                             </constraints>
                                         </collectionViewCellContentView>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                         <size key="customSize" width="414" height="208"/>
                                         <connections>
                                             <outlet property="GunLabelName" destination="rH5-7i-b6W" id="i7i-ux-vwB"/>
@@ -524,12 +557,17 @@
                                             <outlet property="haftaLabel" destination="abj-Uq-SFf" id="YUa-AJ-G3k"/>
                                             <outlet property="resimImage" destination="V8Z-T0-JI8" id="NlO-dW-oeX"/>
 =======
+=======
+>>>>>>> Stashed changes
                                         <size key="customSize" width="366" height="121"/>
                                         <connections>
                                             <outlet property="ayLabel" destination="nua-r1-Gba" id="lww-a0-UAY"/>
                                             <outlet property="gunLabel" destination="7S0-dU-lD4" id="SZe-dG-GbW"/>
                                             <outlet property="haftaLabel" destination="abj-Uq-SFf" id="YUa-AJ-G3k"/>
                                             <outlet property="resimImage" destination="VOL-Ge-UCI" id="aEQ-Oy-XJb"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                             <outlet property="ziplineLabel" destination="SIi-Xy-f2w" id="909-YM-e7A"/>
                                         </connections>
@@ -541,15 +579,21 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="bottom" secondItem="Jfd-LV-o5m" secondAttribute="bottom" id="Clv-hL-6V6"/>
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="leading" secondItem="Jfd-LV-o5m" secondAttribute="leading" id="eaG-Ii-eYt"/>
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="top" secondItem="Jfd-LV-o5m" secondAttribute="top" id="gPL-tw-wie"/>
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="centerX" secondItem="ELl-m6-Rjl" secondAttribute="centerX" id="oYY-T8-94V"/>
 =======
+=======
+>>>>>>> Stashed changes
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="top" secondItem="Jfd-LV-o5m" secondAttribute="top" id="1Ti-Oq-TgK"/>
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="bottom" secondItem="Jfd-LV-o5m" secondAttribute="bottom" id="6VC-iX-8kJ"/>
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="leading" secondItem="Jfd-LV-o5m" secondAttribute="leading" id="BkE-B4-FX4"/>
                             <constraint firstItem="WFV-Eh-k7G" firstAttribute="centerX" secondItem="ELl-m6-Rjl" secondAttribute="centerX" id="gk3-vj-3ph"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                         </constraints>
                     </view>
@@ -661,7 +705,11 @@
         <image name="rectangle.grid.2x2.fill" catalog="system" width="128" height="99"/>
         <image name="scribble" catalog="system" width="128" height="118"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <image name="zipline" width="256.66665649414062" height="147.66667175292969"/>
+=======
+        <image name="zipline" width="770" height="443"/>
+>>>>>>> Stashed changes
 =======
         <image name="zipline" width="770" height="443"/>
 >>>>>>> Stashed changes
