@@ -7,22 +7,54 @@
 		<key>Alamofire.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>1</integer>
+=======
+<<<<<<< Updated upstream
+			<integer>0</integer>
+=======
+			<integer>1</integer>
+>>>>>>> Stashed changes
+>>>>>>> parent of 6685fd1... xx
 		</dict>
 		<key>Pods-Golva-GolvaUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>2</integer>
+=======
+<<<<<<< Updated upstream
+			<integer>1</integer>
+=======
+			<integer>0</integer>
+>>>>>>> Stashed changes
+>>>>>>> parent of 6685fd1... xx
 		</dict>
 		<key>Pods-Golva.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>4</integer>
+=======
+<<<<<<< Updated upstream
+			<integer>3</integer>
+=======
+			<integer>4</integer>
+>>>>>>> Stashed changes
+>>>>>>> parent of 6685fd1... xx
 		</dict>
 		<key>Pods-GolvaTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>3</integer>
+=======
+<<<<<<< Updated upstream
+			<integer>4</integer>
+=======
+			<integer>2</integer>
+>>>>>>> Stashed changes
+>>>>>>> parent of 6685fd1... xx
 		</dict>
 	</dict>
 </dict>
