@@ -478,9 +478,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kqy-V6-W80">
-                                <rect key="frame" x="0.0" y="102" width="394" height="711"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kqy-V6-W80">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fpy-AA-rcT">
                                     <size key="itemSize" width="185" height="128"/>
@@ -496,14 +495,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="185" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-mx-iYh">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-mx-iYh">
                                                     <rect key="frame" x="53" y="44" width="78" height="40"/>
+                                                    <color key="backgroundColor" red="0.4795862602" green="1" blue="0.8462891065" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="78" id="iaz-JN-pDp"/>
                                                         <constraint firstAttribute="height" constant="40" id="klg-kb-cOq"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -521,6 +521,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MIt-Lq-nZt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kqy-V6-W80" firstAttribute="top" secondItem="MIt-Lq-nZt" secondAttribute="top" id="5cf-CC-v72"/>
+                            <constraint firstItem="kqy-V6-W80" firstAttribute="top" secondItem="MIt-Lq-nZt" secondAttribute="top" id="xIj-XV-lva"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Etkinlik Ekle" image="plus" catalog="system" id="Otz-5u-XfX">
                         <color key="badgeColor" systemColor="systemGreenColor"/>
